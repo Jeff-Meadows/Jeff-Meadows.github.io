@@ -23,8 +23,20 @@
 
     <style>
         body {
-            background: transparent url('../img/beach.jpg') 50% 0 fixed no-repeat;
+            position: relative;
             font-family: 'Open Sans', sans-serif;
+        }
+        body:before {
+            content: ' ';
+            display: block;
+            position: relative;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            opacity: 0.6;
+            background: transparent url('../img/beach.jpg') 50% 0 fixed no-repeat;
         }
 
             /* layout */
@@ -64,6 +76,10 @@
             background-image: url('img/jeff-football.jpg');
             background-position: right 60px bottom -10px;
             background-repeat: no-repeat;
+        }
+
+        #about+.secion p:last {
+            min-height: 60px;
         }
 
         .section { min-height: 400px; }
