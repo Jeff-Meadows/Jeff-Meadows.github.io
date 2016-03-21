@@ -37,3 +37,6 @@ pre {
     margin: 2em 1em 2em 4em;
 }
 
+.entry-content p img {
+    max-width: 100%;
+}
