@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Beer Map</title>
+    <link href="https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; right: 0; width:80%; }
+        #beers { position: absolute; top: 0; bottom:0; width: 20%; }
+        #legend { display: none; }
+        .legend-gradient {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,070707+100 */
+            background: #ffffff; /* Old browsers */
+            background: -moz-linear-gradient(left,  #ffffff 0%, #070707 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left,  #ffffff 0%,#070707 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right,  #ffffff 0%,#070707 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#070707',GradientType=1 ); /* IE6-9 */
+            width: 65%;
+            display: inline-block;
+            height: 1em;
+        }
+        .legend-explanation { width: 10%; display: inline-block; }
+        .layer-description, .layer-directions { font-style: italic; }
+        .layer-description ul { padding: 10px; }
+        .beer-panel h3 { margin: 0 0 0.2em; }
+        .layer-address { color: #dd8c01; }
+        .beer-panel { border-bottom: 1px solid grey; }
+        #control-panel { position: absolute; top: 0; height: 20%; width: 100%; }
+        #beer-panels-container { position: absolute; top: 20%; height: 80%; width: 100%; }
+        #beer-panels { height: 100%; width: 100%; overflow-x: hidden; overflow-y: auto; }
+        #beer-panels-hidden { display: none; }
+
+    </style>
+<body>
+<div id="beers">
+    <div id="control-panel">
+        <label for="beer-window">Hide beers not on map</label>
+        <input type="checkbox" id="beer-window" checked="checked" />
+        <br />
+        <label for="top-beers">Show top: </label>
+        <select id="top-beers">
+            <option value="250">250</option>
+            <option value="100">100</option>
+            <option value="50">50</option>
+            <option value="25">25</option>
+        </select>
+        <br />
+        <label for="beer-styles">Show only: </label>
+        <select id="beer-styles"><option value="0">All Styles</option></select>
+        <p>Showing <span id="num-beers">250</span> beers</p>
+    </div>
+    <div id="beer-panels-container"><div id="beer-panels"></div></div>
+    <div id="beer-panels-hidden"></div>
+</div>
+<div id="map"></div>
+<div id="legend">
+    <strong>Breweries of <a href="http://www.beeradvocate.com/lists/top/" target="_blank">BA's Top 250</a></strong><br />
+    <em>Retrieved Jan 10, 2015</em>
+    <div>
+        <span class="legend-explanation">#1</span>
+        <span class="legend-gradient"></span>
+        <span class="legend-explanation">#250</span>
+    </div>
+</div>
+<script src="https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.js"></script>
+<script src="leaflet.smoothmarkerbouncing.js"></script>
+<script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="jquery.quicksand.js"></script>
+<script src="map.js"></script>
+</body>
+</html>
