@@ -51,7 +51,7 @@ content:
         caption: July 2006 - August 2013
         quote: >
           Built experiences for broadband signal generation, analysis, and simulation.
-        description:
+        description: |
           - Designed and developed signal generation and fading software for Agilent PXB
           - Delivered industry-first gated power meter with application designated measurement period
           - Extensively worked with Agilent Laboratories teams to productize new measurements and novel test methodology
@@ -67,7 +67,7 @@ content:
         link: chem.psu.edu
         sub_title: Chemical Research Assistant/Teaching Assistant
         caption: 2003-2006
-        description:
+        description: |
           - Designed and developed software for molecular dynamics research
           - Developed software for remote monitoring of chemical simulation software stack
           - Supervised students using chemical instrumentation
