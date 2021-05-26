@@ -1,0 +1,110 @@
+# Site
+repository: Jeff-Meadows/Jeff-Meadows.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Jeff Meadows
+title: Senior Staff Engineer - Architect
+email: jrmeadows2@gmail.com
+website: www.jeffreymeadows.com
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: jeffascript
+github_username: "Jeff-Meadows"
+stackoverflow_username: "Jeff-Meadows"
+linkedin_username: "jeff-meadows-187573a"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  I'm Jeff, and I'm a senior staff software engineer/architect. I'm currently focusing on web and mobile application architecture.
+
+  I have extensive experience designing and building applications for web, mobile, and desktop. I'm a communication fanatic: good communication between teams leads to better system design.
+
+content:
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Box
+        link: box.com
+        sub_title: Senior Staff Software Engineer/Architect
+        caption: Sept 2013 - Present
+        quote: >
+          Designing systems and growing teams that _power how the world works_.
+        description: | # this will include new lines to allow paragraphs
+         - Drives technical strategy with 2-3 year time horizon
+         - Leads teams responsible for high impact feature delivery
+         - Advocates for and oversees key technical projects
+      - layout: left
+        title: Agilent Technologies (now Keysight)
+        link: keysignt.com
+        sub_title: R&D Software Engineer, Advanced
+        caption: July 2006 - August 2013
+        quote: >
+          Built experiences for broadband signal generation, analysis, and simulation.
+        description:
+          - Designed and developed signal generation and fading software for Agilent PXB
+          - Delivered industry-first gated power meter with application designated measurement period
+          - Extensively worked with Agilent Laboratories teams to productize new measurements and novel test methodology
+          - Designed a framework for independent deployment and backward-compatibility for signal generation applications deployed on Agilent instruments
+          - Developed several small applications to help customers make custom measurements
+      - layout: left
+        title: Contract Web Developer
+        caption: 2011-2014
+        quote: >
+          Built interactive web map applications as well as WordPress plugins and themes.
+      - layout: left
+        title: Penn State University
+        link: chem.psu.edu
+        sub_title: Chemical Research Assistant/Teaching Assistant
+        caption: 2003-2006
+        description:
+          - Designed and developed software for molecular dynamics research
+          - Developed software for remote monitoring of chemical simulation software stack
+          - Supervised students using chemical instrumentation
+          - Developed easy-to-use instruction manuals for chemical instruments
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Penn State University
+        caption: 2002 - 2006
+        sub_title: BS Computer Science, Chemistry (with honors), Mathematics
+        quote: >
+          Learned how to apply scientific rigor and an analytical mindset to building software; computer science to solve real-world problems.
+        description: | # this will include new lines to allow paragraphs
+          - Triple major
+          - Schreyer Honors Scholar
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in software some of my other interests and hobbies are:
+      - Woodworking
+      - Cooking
+      - Hiking
+      - Arguing on the Internet (retired)
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
