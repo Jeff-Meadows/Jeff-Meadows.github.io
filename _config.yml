@@ -39,14 +39,15 @@ content:
         sub_title: Senior Staff Software Engineer/Architect
         caption: Sept 2013 - Present
         quote: >
-          Designing systems and growing teams that _power how the world works_.
+          Designing systems and growing teams that power how the world works together.
         description: | # this will include new lines to allow paragraphs
          - Drives technical strategy with 2-3 year time horizon
          - Leads teams responsible for high impact feature delivery
          - Advocates for and oversees key technical projects
+         - Builds for leverage, with a focus on quality and maintainability
       - layout: left
         title: Agilent Technologies (now Keysight)
-        link: keysignt.com
+        link: keysight.com
         sub_title: R&D Software Engineer, Advanced
         caption: July 2006 - August 2013
         quote: >
@@ -81,7 +82,7 @@ content:
         caption: 2002 - 2006
         sub_title: BS Computer Science, Chemistry (with honors), Mathematics
         quote: >
-          Learned how to apply scientific rigor and an analytical mindset to building software; computer science to solve real-world problems.
+          Learned how to apply scientific rigor and an analytical mindset to building software for solving real-world problems.
         description: | # this will include new lines to allow paragraphs
           - Triple major
           - Schreyer Honors Scholar
@@ -93,7 +94,10 @@ content:
       - Woodworking
       - Cooking
       - Hiking
+      - Soccer
       - Arguing on the Internet (retired)
+      - Video Games (retired)
+      - Board Games
 
 # Footer
 footer_show_references: true
