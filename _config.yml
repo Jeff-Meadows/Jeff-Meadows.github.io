@@ -23,7 +23,7 @@ linkedin_username: "jeff-meadows-187573a"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm Jeff, and I'm a senior staff software engineer/architect. I'm currently focusing on web and mobile application architecture.
+  I'm Jeff, a senior staff software engineer/architect. I'm currently focusing on web and mobile application architecture.
 
   I have extensive experience designing and building applications for web, mobile, and desktop. I'm a communication fanatic: good communication between teams leads to better system design.
 
@@ -94,7 +94,9 @@ content:
       - Cooking
       - Hiking
       - Soccer
+      - Tennis 
       - Arguing on the Internet (retired)
+      - Listening to my kids argue with me
       - Video Games (retired)
       - Board Games
 
