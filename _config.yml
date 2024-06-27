@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Jeff Meadows
-title: Senior Staff Engineer - Architect
+title: Senior Staff Engineer
 email: jrmeadows2@gmail.com
 website: www.jeffreymeadows.com
 
@@ -23,7 +23,7 @@ linkedin_username: "jeff-meadows-187573a"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm a senior staff software engineer/architect. I'm currently focusing on web and mobile application architecture.
+  I'm a senior staff software engineer/architect. I'm currently focusing on web and mobile applications at Airbnb.
 
   I have extensive experience designing and building applications for web, mobile, and desktop. I'm a communication fanatic: good communication between teams leads to better system design.
 
@@ -33,18 +33,27 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Airbnb
+        link: airbnb.com
+        sub_title: Senior Staff Software Engineer
+        caption: Apr 2024 - Present
+        quote: >
+          Building experiences that foster connection and belonging.
+        description: | # this will include new lines to allow paragraphs
+         - IC leader responsible for guest and host booking and pricing experiences at Airbnb
+      - layout: left
         title: Box
         link: box.com
         sub_title: Senior Staff Software Engineer/Architect
-        caption: Sept 2013 - Present
+        caption: Sept 2013 - Mar 2024
         quote: >
           Designing systems and growing teams that power how the world works together.
         description: | # this will include new lines to allow paragraphs
          - IC leader responsible for web and mobile experiences at Box
-         - Drives technical strategy with 2-3 year time horizon
-         - Leads teams responsible for high impact feature delivery
-         - Advocates for and oversees key technical projects
-         - Builds for leverage, with a focus on quality and maintainability
+         - Drove technical strategy with 2-3 year time horizon
+         - Led teams responsible for high impact feature delivery
+         - Advocated for and oversaw key technical projects
+         - Built for leverage, with a focus on quality and maintainability
       - layout: left
         title: Agilent Technologies (now Keysight)
         link: keysight.com
